@@ -25,6 +25,7 @@
 *   Development Region: The development cost per hour in countries of UK, USA and Europe is much higher than that of India. Hence, to create a module for modelling of transformer in India would cost around $25000 to $35000 which will be having very basic features and will be on one single platform only.
 
 ## Defining the system
+![defining system](https://github.com/SMIT17021/LTTS_MINI_-259893-/blob/master/5_Images/transformer_defining.png)
 
 ##  SWOT
 ![SWOT_image](https://github.com/SMIT17021/LTTS_MINI_-259893-/blob/master/5_Images/SWOT.png)

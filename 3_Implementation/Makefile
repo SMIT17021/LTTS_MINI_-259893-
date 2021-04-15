@@ -12,8 +12,9 @@ src/main.c
 INC = -Iunity\
 -Iinc
 
+.PHONY	: all test coverage run clean doc
 
-$(PROJECT_NAME): $(SRC)
+all:$(PROJECT_NAME): $(SRC)
 	gcc $(SRC) $(INC) -o $(PROJECT_NAME)
 
 run:$(PROJECT_NAME)

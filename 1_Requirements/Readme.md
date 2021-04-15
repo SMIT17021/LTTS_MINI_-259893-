@@ -26,6 +26,9 @@
 
 ## Defining the system
 
+##  SWOT
+![SWOT_image](https://github.com/SMIT17021/LTTS_MINI_-259893-/blob/master/5_Images/SWOT.png)
+
 ##  5W's 1 H
 
 ### Why

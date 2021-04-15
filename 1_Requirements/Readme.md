@@ -3,7 +3,7 @@
 
 *   Distribution transformer is a X’mer that provides the final voltage transformation in the electric power distribution system,stepping down the voltage used in the distribution lines to the level used by the customer. The invention of a practical efficient X’mer made AC power distribution feasible; a system using distribution X’mers was demonstrated as early as 1882. 
 
-*   Thus the motive behind the project is to do modelling of X’mer by calculating transmission parameters. A model is designed to simulate the performance of a single phase X’mer under different loads. It is done after considering the appropriate mathematical equations. From this we can know the sending end and receiving end voltages and currents.
+*   Thus the motive behind the project is to do modelling of X’mer by calculating transmission parameters. A model is designed to simulate the performance of a  X’mer under different loads. It is done after considering the appropriate mathematical equations. From this we can know the sending end and receiving end voltages and currents.
 
 ## Research
 

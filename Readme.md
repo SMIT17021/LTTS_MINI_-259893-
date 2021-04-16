@@ -7,6 +7,7 @@
 
 Build | Code Quality | Code Qualtiy - Static Analysis | Unit Testing |
 ------|----------|-------|--------------
+ .... |[![cppcheck-action](https://github.com/SMIT17021/LTTS_MINI_-259893-/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/SMIT17021/LTTS_MINI_-259893-/actions/workflows/c-cpp.yml)|...| 
 
 ## Folder Structure
 Folder             | Description

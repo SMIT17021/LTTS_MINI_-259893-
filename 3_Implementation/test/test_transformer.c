@@ -25,7 +25,7 @@ void tearDown(){}
 
 void test_single_phase()
 {
-    TEST_ASSERT_EQUAL(-1, single_phase(0,1,1));
+    TEST_ASSERT_EQUAL(-1, single_phase(0,1,1,1,1));
 }
 
 /**

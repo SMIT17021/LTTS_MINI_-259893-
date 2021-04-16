@@ -1,5 +1,7 @@
 PROJECT_NAME = transformer
 
+TEST_PROJECT_NAME = test_$(PROJECT_NAME)
+
 BUILD = build
 
 SRC = src/delta_delta.c\
@@ -35,6 +37,10 @@ $(PROJECT_NAME):all
 all:
 	gcc src/main.c $(SRC) $(INC) -o $(call FixPath,$(PROJECT_NAME).$(EXEC))
 
+test: $(SRC) $(TEST_SRC)
+	gcc $(TEST_SRC) $(SRC) $(INC) -o $(TEST_PROJECT_NAME).$(EXEC)
+	./$(TEST_PROJECT_NAME).$(EXEC)
+
 
 run: $(PROJECT_NAME)
 	./${PROJECT_NAME}.$(EXEC)
@@ -42,7 +48,7 @@ doc:
 	make -C documentation
 
 clean:
-	$(RM)	*.(EXEC)
+	$(RM) *.(EXEC)
 
 
 $(BUILD):

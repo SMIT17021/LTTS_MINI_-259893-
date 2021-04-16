@@ -13,6 +13,7 @@
 #include <stdio.h>
 #include "transformer.h"
 #include <complex.h>
+#include <math.h>
 
 /**
  * @brief function to calculate design parameters for single phase transformer

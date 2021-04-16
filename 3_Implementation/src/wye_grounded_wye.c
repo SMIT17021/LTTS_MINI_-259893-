@@ -12,6 +12,7 @@
 #include <stdio.h>
 #include "transformer.h"
 #include <complex.h>
+#include <math.h>
 
 /**
  * @brief function to calculate design parameters for three phase grounded wye-ungrounded wye transformer

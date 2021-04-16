@@ -4,7 +4,7 @@ BUILD = build
 
 SRC = src/delta_delta.c\
 src/delta_grounded_wye.c\
-src/single_phase.c\
+src/Single_phase.c\
 src/ungrounded_wye_delta.c\
 src/wye_grounded_wye.c\
 
@@ -43,7 +43,7 @@ doc:
 
 clean:
 	$(RM)	*.(EXEC)
-	
+
 
 $(BUILD):
 	mkdir build

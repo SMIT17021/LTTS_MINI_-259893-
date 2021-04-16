@@ -53,7 +53,7 @@ int ungrounded_wye_delta(float nt, double x, double s)
 			 printf("\tb[2][2] = (%lf, %lf)", mag1,ang);
 			 printf("\tb[2][3] = 0");
 			 printf("\nb[3][1] = - (%lf, %lf)", mag1,ang);
-			 printf("\tb[3][2] = -", mag, ang);
+			 printf("\tb[3][2] = -(%lf, %lf)", mag, ang);
 			 printf("\tb[3][3] = 0");
 
 			 printf("\nMatrix of c parameter = [0]");

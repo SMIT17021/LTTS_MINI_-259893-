@@ -1,37 +1,33 @@
-PROJECT_NAME = TRANSFORMER.exe
+PROJECT_NAME = transformer
 
-SRC = unity/unity.c\
-src/delta_delta.c\
+BUILD = build
+
+SRC = src/delta_delta.c\
 src/delta_grounded_wye.c\
 src/single_phase.c\
 src/ungrounded_wye_delta.c\
 src/wye_grounded_wye.c\
-test/test_transformer.c\
-src/main.c
+
+TEST_SRC = test/test_transformer.c\
+unity/unity.c\
 
 INC = -Iunity\
--Iinc
+-Iinc\
+
+$(PROJECT_NAME):all
 
 .PHONY	: all test coverage run clean doc
 
-all:$(PROJECT_NAME): $(SRC)
-	gcc $(SRC) $(INC) -o $(PROJECT_NAME)
+all:
+	gcc src/main.c $(SRC) $(INC) -o $(PROJECT_NAME).exe
 
 run:$(PROJECT_NAME)
-	./${PROJECT_NAME}
+	./${PROJECT_NAME}.exe
 doc:
 	make -C documentation
 
 clean:
 	rm -rf $(PROJECT_NAME) documentation/html
 
-coverage:${PROJECT_NAME}
-	gcc -fprofile-arcs -ftest-coverage $(SRC) $(INC) -o $(PROJECT_NAME)
-	./${PROJECT_NAME}
-	gcov -a src/delta_delta.c\
- src/delta_grounded_wye.c\
- src/single_phase.c\
- src/ungrounded_wye_delta.c\
- src/wye_grounded_wye.c\
- test/test_transformer.c\
- src/main.c
+$(BUILD):
+	mkdir build

@@ -40,7 +40,7 @@ int ungrounded_wye_delta(float nt, double x, double s)
 			 printf("\ta[3][2] = 0");
 			 printf("\ta[3][3] = %f", nt);
 
-
+			double mag,ang,mag1;
 			 mag = cabs(g);
 			 ang = carg(g);
 			 mag = (mag*nt)/3;

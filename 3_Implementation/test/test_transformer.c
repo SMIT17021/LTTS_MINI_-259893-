@@ -43,9 +43,9 @@ void test_wye_grounded_wye()
  * 
  */
 
-void test_delta_gounded_wye()
+void test_delta_grounded_wye()
 {
-    TEST_ASSERT_EQUAL(-1, delta_gounded_wye(0,1,1));
+    TEST_ASSERT_EQUAL(-1, delta_grounded_wye(0,1,1));
 }
 
 /**
@@ -82,7 +82,7 @@ int test_main(void)
 /* Run Test functions */
   RUN_TEST(test_single_phase);
   RUN_TEST(test_wye_grounded_wye);
-  RUN_TEST(test_delta_gounded_wye);
+  RUN_TEST(test_delta_grounded_wye);
   RUN_TEST(test_ungrounded_wye_delta);
   RUN_TEST(test_delta_delta);
 

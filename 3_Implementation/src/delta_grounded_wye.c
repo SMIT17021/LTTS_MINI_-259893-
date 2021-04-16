@@ -22,10 +22,10 @@
  * @return int 
  */
 
-int delta_gounded_wye(float nt, double x, double s)
+int delta_grounded_wye(float nt, double x, double s)
 {
    	 complex m= x + s*I;
-
+	
 	 if(nt==0)
 	 	 return -1;
 			
@@ -46,8 +46,8 @@ int delta_gounded_wye(float nt, double x, double s)
 				 } 
 			 
 			 
-			 double mag1;
-			 mag = cbas(m);
+			 double mag1,mag,ang;
+			 mag = cabs(m);
 			 ang = carg(m);
 			 mag = (mag*2*nt)/3;
 			 mag1 = mag/2;

@@ -48,6 +48,7 @@ printf("\nMatrix of a parameter is :");
 					}
 				 }
 
+			double mag;
 			 mag = cabs(z);
 			 double ang = carg(z);
 			 mag = mag*nt;
@@ -55,10 +56,10 @@ printf("\nMatrix of a parameter is :");
 
 			 printf("\nMatrix of b parameter in polar form is :");
 		
-			 for(i=0; i<3; i++)
+			 for(int i=0; i<3; i++)
 			 	{	
 					printf("\n");
-					for(j=0; j<3; j++)
+					for(int j=0; j<3; j++)
 					{
 						if(j==i)
 							printf("\t b[%d][%d] = (%lf, %lf)", (i+1), (j+1), mag, ang);
@@ -73,10 +74,10 @@ printf("\nMatrix of a parameter is :");
 			 printf("\nMatrix of d parameter is ");
 
 
-			for(i=0; i<3; i++)
+			for(int i=0; i<3; i++)
 			 	{	
 					printf("\n");
-					for(j=0; j<3; j++)
+					for(int j=0; j<3; j++)
 					{
 						if(j==i)
 							printf("\t d[%d][%d] = %f", (i+1),(j+1),(1/nt));

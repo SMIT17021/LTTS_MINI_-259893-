@@ -46,7 +46,7 @@ int delta_delta(float nt, double x, double s)
 					}
 				}  
 
-			 double mag2;
+			 double mag2,mag,ang,mag1;
 			 mag = cabs(t);
 			 ang = carg(t);
 			 mag = (nt*mag)/9;
@@ -69,10 +69,10 @@ int delta_delta(float nt, double x, double s)
 			 printf("\nMatrix of d parameter is :");
 			
 
-			for(i=0; i<3; i++)
+			for(int i=0; i<3; i++)
 			 	{
 					printf("\n");
-					for(j=0; j<3; j++)
+					for(int j=0; j<3; j++)
 					{
 						if(j==i)
 							printf("\t d[%d][%d] = %f", (i+1),(j+1),(1/nt));

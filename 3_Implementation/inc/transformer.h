@@ -46,7 +46,7 @@ int wye_grounded_wye(float nt, double x, double s);
  * @return int zero for successful execution
  */
 
-int delta_gounded_wye(float nt, double x, double s);
+int delta_grounded_wye(float nt, double x, double s);
 
 /**
  * @brief function to calculate design parameters for three phase ungrounded wye-delta transformer

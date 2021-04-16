@@ -17,6 +17,11 @@
 void main()
 {
     int ch;
+    float nt1;
+	double x1 , y1, x2, y2, d1, d2;
+    float nt;
+    double x,s;
+
 
 	printf("Press 1 for single phase tranformer ");
 	printf("\nPress 2 for 3 phase grounded wye-grounded wye ");
@@ -29,8 +34,10 @@ void main()
 
     switch(ch)
 	{
-		case 1 : float nt1;
-			     double x1,y1,x2,y2,d1,d2;
+		case 1 : 
+        
+                 //float nt1;
+			     //double x1 , y1, x2, y2, d1, d2;
 
 
 			     printf("\n\nEnter turns ratio :");
@@ -50,8 +57,10 @@ void main()
 
              break;
 
-         case 2 : float nt;
-			     double x,s;
+         case 2 : 
+         
+                 //float nt;
+			     //double x,s;
 
 
                  printf("\n\nEnter the real part of impedance of any phase refered on secondary side :");
@@ -67,6 +76,8 @@ void main()
 
          case 3 :
 
+                 //float nt;
+			     //double x,s;
 
                  printf("\n\nEnter the real part of impedance of any phase refered on secondary side :");
                  scanf("%lf", &x);
@@ -75,12 +86,15 @@ void main()
                  printf("\nEnter turns ratio :");
                  scanf("%f", &nt);
 
-                 delta_gounded_wye( nt, x, s);
+                 delta_grounded_wye( nt, x, s);
 
              break;
 
          case 4 :
 
+
+                 //float nt;
+			     //double x,s;
 
                  printf("\n\nEnter the real part of impedance of any phase refered on secondary side :");
                  scanf("%lf", &x);
@@ -95,6 +109,9 @@ void main()
              
          case 5 :
 
+
+                 //float nt;
+			     //double x,s;
 
                  printf("\n\nEnter the real part of impedance of any phase refered on secondary side :");
                  scanf("%lf", &x);

@@ -8,4 +8,4 @@
 |  T_02       |Function to test zero condition for function wye_grounded_wye|0|0|Requirement based|
 |  T_03       |Function to test zero condition for function delta_grounded_wye|0|0|Requirement based|
 |  T_04       |Function to test zero condition for function ungrounded_wye_delta|0|0|Requirement based|
-|  T_05       |Function to test zero condition for function delta_delta|0|0||
+|  T_05       |Function to test zero condition for function delta_delta|0|0||Requirement based|

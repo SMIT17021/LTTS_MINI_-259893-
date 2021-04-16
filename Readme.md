@@ -5,6 +5,9 @@
 
 *   After calculations of the transmission parameters of the distribution  transformer we can make the further analysis of the distribution system easier as we can also calculate the same for the transmission line and hence we can calculate the overall transmission parameter of the model further decreasing our efforts to analyze the system.
 
+Build | Code Quality | Code Qualtiy - Static Analysis | Unit Testing |
+------|----------|-------|--------------
+
 ## Folder Structure
 Folder             | Description
 -------------------| -----------------------------------------

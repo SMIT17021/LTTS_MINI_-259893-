@@ -5,7 +5,7 @@
 
 *   After calculations of the transmission parameters of the distribution  transformer we can make the further analysis of the distribution system easier as we can also calculate the same for the transmission line and hence we can calculate the overall transmission parameter of the model further decreasing our efforts to analyze the system.
 
-Build | Code Quality 
+Code Quality - Static Analysis | Code Quality 
 ------|----------
  [![cppcheck-action](https://github.com/SMIT17021/LTTS_MINI_-259893-/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/SMIT17021/LTTS_MINI_-259893-/actions/workflows/c-cpp.yml)|[![Codacy Badge](https://app.codacy.com/project/badge/Grade/64f9c2ef7e7d403a82532d2297f6da8b)](https://www.codacy.com/gh/SMIT17021/LTTS_MINI_-259893-/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=SMIT17021/LTTS_MINI_-259893-&amp;utm_campaign=Badge_Grade) 
 
